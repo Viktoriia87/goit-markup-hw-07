@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebStudio</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
+
+</head>
+
+<body>
+    <!--Шапка-->
+    <header class="header">
+        <div class="container header__container">
+            <nav class="navigation">
+                <a href="./index.html" class="logo header__logo link"> <span class="logo_blue">Web</span>Studio</a>
+                <ul class="menu">
+                    <li class="menu__item list"><a class="menu__link link" href="./index.html">Студия</a>
+                    </li>
+                    <li class="menu__item list"><a class="menu__link menu__link_current link" href="./portfolio.html">Портфолио</a></li>
+                    <li class="menu__item list"><a class="menu__link link" href="">Контакты</a></li>
+                </ul>
+            </nav>
+            <ul class="address__contaiter">
+                <li class="address__item list"><a class="address__mail-link link" href="info@devstudio.com">
+                        <svg class="address__mail-icon">
+                            <use href="./img/sprite.svg#icon-envelope"></use>
+                        </svg> info@devstudio.com
+                    </a>
+                </li>
+                <li class="address__item list">
+                    <a class="address__tel-link link" href="tel:+380961111111">
+                        <svg class="address__phone-icon">
+                            <use href="./img/sprite.svg#icon-smartphone"></use>
+                        </svg> +380961111111</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <!--Наши работы-->
+        <section class="portfolio section">
+            <div class="container portfolio-container">
+                <h1 hidden>Наши работы</h1>
+                <ul class="filter-list">
+                    <li class="filter-item list">
+                        <button class="filter-button" type="button">Все</button>
+                    </li>
+                    <li class="filter-item list">
+                        <button class="filter-button" type="button">Веб-сайты</button>
+                    </li>
+                    <li class="filter-item list">
+                        <button class="filter-button" type="button">Приложения</button>
+                    </li>
+                    <li class="filter-item list">
+                        <button class="filter-button" type="button">Дизайн</button>
+                    </li>
+                    <li class="filter-item list">
+                        <button class="filter-button" type="button">Маркетинг</button>
+                    </li>
+                </ul>
+                <ul class="project-list">
+                    <li class="project-item list">
+                        <a class="project-link link" href="">
+                            <div class="project-img-wrapper">
+                                <img class="project-image" src="./img/portfolio1.jpg" alt="Технокряк" width="370"
+                                    height="294">
+                                <p class="overlay">Технокряк это современная площадка распространения коронавируса.
+                                    Компании используют эту платформу
+                                    для цифрового
+                                    шпионажа и атак на защищённые сервера конкурентов.</p>
+                            </div>
+                            <div class="project-item-content">
+                                <h2 class="project-title">Технокряк</h2>
+                                <p class="project-decr">Веб-сайт</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="project-item list">
+                        <a class="project-link link" href="">
+                            <div class="project-img-wrapper">
+                                <img class="project-image" src="./img/portfolio2.jpg"
+                                    alt="Постер New Orlean vs Golden Star" width="370" height="294">
+                                <p class="overlay">Постер New Orlean vs Golden Star это современная площадка
+                                    распространения коронавируса. Компании
+                                    используют эту платформу
+                                    для цифрового
+                                    шпионажа и атак на защищённые сервера конкурентов.</p>
+                            </div>
+                            <div class="project-item-content">
+                                <h2 class="project-title">Постер <span lang="en">New Orlean vs Golden Star</span></h2>
+                                <p class="project-decr">Дизайн</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="project-item list">
+                        <a class="project-link link" href="">
+                            <div class="project-img-wrapper">
+                                <img class="project-image" src="./img/portfolio3.jpg" alt="Ресторан Seafood" width="370"
+                                    height="294">
+                                <p class="overlay">Ресторан Seafood это современная площадка распространения
+                                    коронавируса. Компании используют эту платформу для цифрового
+                                    шпионажа и атак на защищённые сервера конкурентов</p>
+                            </div>
+                            <div class="project-item-content">
+                                <h2 class="project-title">Ресторан <span lang="en">Seafood</span></h2>
+                                <p class="project-decr">Приложение</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="project-item list">
+                        <a class="project-link link" href="">
+                            <div class="project-img-wrapper">
+                                <img class="project-image" src="./img/portfolio4.jpg" alt="Проект Prime" width="370"
+                                    height="294">
+                                <p class="overlay">Проект Prime это современная площадка распространения коронавируса.
+                                    Компании используют эту платформу для цифрового
+                                    шпионажа и атак на защищённые сервера конкурентов.</p>
+                            </div>
+                            <div class="project-item-content">
+                                <h2 class="project-title">Проект <span lang="en">Prime</span></h2>
+                                <p class="project-decr">Маркетинг</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="project-item list">
+                        <a class="project-link link" href="">
+                            <div class="project-img-wrapper">
+                                <img class="project-image" src="./img/portfolio5.jpg" alt="Проект Boxes" width="370"
+                                    height="294">
+                                <p class="overlay">Проект Boxes это современная площадка распространения коронавируса.
+                                    Компании используют эту платформу для цифрового
+                                    шпионажа и атак на защищённые сервера конкурентов.</p>
+                            </div>
+                            <div class="project-item-content">
+                                <h2 class="project-title">Проект <span lang="en">Boxes</span></h2>
+                                <p class="project-decr">Приложение</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="project-item list">
+                        <a class="project-link link" href="">
+                            <div class="project-img-wrapper">
+                                <img class="project-image" src="./img/portfolio6.jpg" alt="Inspiration has no Borders"
+                                    width="370" height="294">
+                                <p class="overlay">Inspiration has no Borders это современная площадка распространения
+                                    коронавируса. Компании используют эту платформу для цифрового
+                                    шпионажа и атак на защищённые сервера конкурентов.</p>
+                            </div>
+                            <div class="project-item-content">
+                                <h2 class="project-title" lang="en">Inspiration has no Borders</h2>
+                                <p class="project-decr">Веб-сайт</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="project-item list">
+                        <a class="project-link link" href="">
+                            <div class="project-img-wrapper">
+                                <img class="project-image" src="./img/portfolio7.jpg" alt="Издание Limited Edition"
+                                    width="370" height="294">
+                                <p class="overlay">Издание Limited Edition это современная площадка распространения
+                                    коронавируса. Компании используют эту платформу для цифрового
+                                    шпионажа и атак на защищённые сервера конкурентов</p>
+                            </div>
+                            <div class="project-item-content">
+                                <h2 class="project-title">Издание <span lang="en">Limited Edition</span></h2>
+                                <p class="project-decr">Дизайн</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="project-item list">
+                        <a class="project-link link" href="">
+                            <div class="project-img-wrapper">
+                                <img class="project-image" src="./img/portfolio8.jpg" alt="Проект LAB" width="370"
+                                    height="294">
+                                <p class="overlay">Проект LAB это современная площадка распространения коронавируса.
+                                    Компании используют эту платформу для цифрового
+                                    шпионажа и атак на защищённые сервера конкурентов.</p>
+                            </div>
+                            <div class="project-item-content">
+                                <h2 class="project-title">Проект <span lang="en">LAB</span></h2>
+                                <p class="project-decr">Маркетинг</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="project-item list">
+                        <a class="project-link link" href="">
+                            <div class="project-img-wrapper">
+                                <img class="project-image" src="./img/portfolio9.jpg" alt="Growing Business" width="370"
+                                    height="294">
+                                <p class="overlay">Growing Business это современная площадка распространения
+                                    коронавируса. Компании используют эту платформу для цифрового
+                                    шпионажа и атак на защищённые сервера конкурентов.</p>
+                            </div>
+                            <div class="project-item-content">
+                                <h2 class="project-title" lang="en">Growing Business</h2>
+                                <p class="project-decr">Приложение</p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer class="footer footer__section">
+        <div class="container footer__container">
+            <div class="fooder__logo-address">
+                <a class="logo footer__logo logo_white link" href="./index.html"> <span
+                        class="logo_blue">Web</span>Studio</a>
+                <address class="address">
+                    <ul class="address__list list">
+                        <li class="address__item-footer">
+                            <a class="location link" href="https://goo.gl/maps/w3A9TipmiTjofu6cA" target="_blank"
+                                rel="noopener noreferrer">г.
+                                Киев, пр-т Леси Украинки, 26</a>
+                        </li>
+                        <li class="address__item-footer"><a class="address__link link"
+                                href="info@example.com">info@example.com</a>
+                        </li>
+                        <li class="address__item-footer"><a class="address__link link"
+                                href="+380991111111">+380991111111</a></li>
+                    </ul>
+                </address>
+            </div>
+            <div class="footer__social">
+                <h3 class="footer__social-list-title">Присоединяйтесь</h3>
+                <ul class="footer__social-list list">
+                    <li class="footer__social-list-item">
+                        <a href="" class="footer__social-list-link">
+                            <svg class="footer__social-list-icon">
+                                <use href="./img/sprite.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="footer__social-list-item">
+                        <a href="" class="footer__social-list-link">
+                            <svg class="footer__social-list-icon">
+                                <use href="./img/sprite.svg#icon-twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="footer__social-list-item">
+                        <a href="" class="footer__social-list-link">
+                            <svg class="footer__social-list-icon">
+                                <use href="./img/sprite.svg#icon-facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="footer__social-list-item">
+                        <a href="" class="footer__social-list-link">
+                            <svg class="footer__social-list-icon">
+                                <use href="./img/sprite.svg#icon-linkedin"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <form action="#" class="footer-form">
+                <p class="footer-fort-title">Подпишитесь на рассылку</p>
+                <div class="footer-form-input-wrapper">
+                    <input type="email" class="footer-form-input" name="user-mail" placeholder="E-mail" required>
+                    <button type="submit" class="footer-form-btn">
+                        Подписаться
+                        <svg class="footer-form-icon">
+                            <use href="./img/sprite.svg#icon-footer-form-icon"></use>
+                        </svg>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </footer>
+</body>
+
+</html>
